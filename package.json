@@ -1,24 +1,23 @@
 {
-  "name": "electron-quick-start-typescript",
-  "version": "1.0.0",
-  "description": "A minimal Electron application written with Typescript",
+  "name": "set",
+  "version": "0.0.0",
+  "description": "Set using Electron",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "start": "npm run build && electron ./dist/main.js"
   },
-  "repository": "https://github.com/electron/electron-quick-start-typescript",
+  "repository": "https://github.com/cpcloud/set",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo",
-    "typescript"
+    "typescript",
+    "set",
+    "game",
+    "puzzle"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Phillip Cloud",
+  "license": "Apache-2.0",
   "devDependencies": {
     "electron": "^1.7.11",
     "tslint": "^5.9.1",
